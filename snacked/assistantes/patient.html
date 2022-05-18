@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en" class="light-theme">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../assets/images/favicon-32x32.png" type="image/png" />
+  <!--plugins-->
+  <link href="../assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+  <link href="../assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+  <link href="../assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../assets/css/bootstrap-extended.css" rel="stylesheet" />
+  <link href="../assets/css/style.css" rel="stylesheet" />
+  <link href="../assets/css/icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="../assets/css/mystyle.css" rel="stylesheet">
+
+
+  <!-- loader-->
+  <link href="../assets/css/pace.min.css" rel="stylesheet" />
+
+  <!--Theme Styles-->
+  <link href="../assets/css/dark-theme.css" rel="stylesheet" />
+  <link href="../assets/css/light-theme.css" rel="stylesheet" />
+  <link href="../assets/css/semi-dark.css" rel="stylesheet" />
+  <link href="../assets/css/header-colors.css" rel="stylesheet" />
+
+  <title>Nutrihealth</title>
+</head>
+
+<body>
+
+
+  <!--start wrapper-->
+  <div class="wrapper">
+    <!--start top header-->
+    <header class="top-header">
+      <nav class="navbar navbar-expand gap-3">
+        <div class="mobile-toggle-icon fs-3">
+          <i class="bi bi-list"></i>
+        </div>
+        <form class="searchbar">
+          <div class="position-absolute top-50 translate-middle-y search-icon ms-3"><i class="bi bi-search"></i></div>
+          <input class="form-control" type="text" placeholder="Type here to search">
+          <div class="position-absolute top-50 translate-middle-y search-close-icon"><i class="bi bi-x-lg"></i></div>
+        </form>
+        <div class="top-navbar-right ms-auto">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item search-toggle-icon">
+              <a class="nav-link" href="#">
+                <div class="">
+                  <i class="bi bi-search"></i>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item dropdown dropdown-user-setting">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown">
+                <div class="user-setting d-flex align-items-center">
+                  <img src="https://via.placeholder.com/110X110" class="user-img" alt="">
+                </div>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img src="https://via.placeholder.com/110X110" alt="" class="rounded-circle" width="54"
+                        height="54">
+                      <div class="ms-3">
+                        <h6 class="mb-0 dropdown-user-name">Jhon Deo</h6>
+                        <small class="mb-0 dropdown-user-designation text-secondary">Assistante</small>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li>
+                  <a class="dropdown-item" href="user-profile.html">
+                    <div class="d-flex align-items-center">
+                      <div class=""><i class="bi bi-person-fill"></i></div>
+                      <div class="ms-3"><span>Profile</span></div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <div class=""><i class="bi bi-gear-fill"></i></div>
+                      <div class="ms-3"><span>Setting</span></div>
+                    </div>
+                  </a>
+                </li>
+                
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li>
+                  <a class="dropdown-item" href="authentication-signup-with-header-footer.html">
+                    <div class="d-flex align-items-center">
+                      <div class=""><i class="bi bi-lock-fill"></i></div>
+                      <div class="ms-3"><span>Logout</span></div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--end top header-->
+    <!--start sidebar -->
+    <aside class="sidebar-wrapper" data-simplebar="true">
+      <div class="sidebar-header">
+        <div>
+          <img src="../assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+        </div>
+        <div>
+          <h4 class="logo-text">Nutrihealth</h4>
+        </div>
+        <div class="toggle-icon ms-auto"> <i class="bi bi-list"></i>
+        </div>
+      </div>
+      <!--navigation-->
+      <ul class="metismenu" id="menu">
+        <li>
+          <a href="index.html">
+            <div class="parent-icon"><i class="bi bi-house-fill"></i>
+            </div>
+            <div class="menu-title">Dashboard</div>
+          </a>
+         
+        </li>
+       
+        <li>
+            <a href="patient.html">
+              <div class="parent-icon"><i class="bi bi-calendar-check-fill"></i>
+              </div>
+              <div class="menu-title">Patients</div>
+            </a>
+          </li>
+         
+          <li>
+            <a href="calendrier.html">
+              <div class="parent-icon"><i class="bi bi-stopwatch-fill"></i>
+              </div>
+              <div class="menu-title">Calendrier</div>
+            </a>
+          </li>
+         
+
+
+
+      </ul>
+      <!--end navigation-->
+    </aside>
+    <!--end sidebar -->
+
+    <!--start content-->
+    <main class="page-content">
+      <!--breadcrumb-->
+      <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">Patients</div>
+        <div class="ps-3">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0 p-0">
+              <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">Listes des Patients</li>
+            </ol>
+          </nav>
+        </div>
+
+      </div>
+      <!--end breadcrumb-->
+
+      <div class="card">
+        <div class="card-body">
+
+          <div class="ms-auto ">
+            <div class="btn-group ">
+
+              <button type="button" class="btn btn-light addbutton " data-bs-toggle="modal"
+                data-bs-target="#add">Ajouter</button>
+              <button type="button" class="btn btn-light addbutton  bi bi-plus-circle " data-bs-toggle="modal"
+                data-bs-target="#add">
+                <!-- <span class="visually-hidden">Toggle Dropdown</span> -->
+              </button>
+
+            </div>
+            <!-- <button type="button" class="btn btn-light addbutton">PDF</button>
+            <button type="button" class="btn btn-light addbutton">Excel</button> -->
+          </div>
+          <!-- ADD Modal -->
+          <div class="modal fade" id="add" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Ajouter un Patient</h5>
+                  <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="border p-3 rounded">
+
+
+                        <form class="row g-3">
+
+
+                          
+                          <div class="col-6">
+                            <label class="form-label">Nom</label>
+                            <input type="text" class="form-control">
+                          </div>
+                          <div class="col-6">
+                            <label class="form-label">Prenom</label>
+                            <input type="text" class="form-control">
+                          </div>
+                          <div class="col-6">
+                            <label class="form-label">date de naissance </label>
+                            <input type="date" class="form-control">
+                          </div>
+                          <div class="col-6">
+                            <label class="form-label">Adresse Email</label>
+                            <input type="text" class="form-control">
+                          </div>
+                          <div class="col-6">
+                            <label class="form-label">Tel</label>
+                            <input type="number" class="form-control">
+                          </div>
+                          
+
+                          <div class="row mt-3 ">
+
+                            <div class="col-6">
+                              <button type="submit" class="btn btn-light px-2 confirmer"><i
+                                  class="bx bx-check-circle mr-1"></i>Confirmer</button>
+                              <button type="submit" class="btn btn-light px-2 cancel"><span class="iconify"
+                                  data-icon="icomoon-free:cancel-circle"></span>Cancel</button>
+                            </div>
+                          </div>
+                      </div>
+
+
+
+
+
+
+
+                      </form>
+
+                    </div>
+                  </div>
+                  <!--end row-->
+
+
+                </div>
+               
+              </div>
+            </div>
+          </div>
+          <!--end of ADD model-->
+
+
+
+          <div class="table-responsive mt-3">
+            <table class="table align-middle">
+              <thead class="table-secondary">
+                <div class="col-3">
+                  <input class="form-control ps-5" type="text" placeholder="Search">
+                </div>
+                <hr>
+
+
+
+
+
+                <tr>
+                  <th>N°</th>
+                  <th>Nom</th>
+                  <th>Prénom</th>
+                  <th>date de naissance</th>
+                  <th>sexe</th>
+                  <th>tel</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>
+                    
+                    laamari
+                  </td>
+
+                  <td>Sarra</td>
+                  <td>07/12/1999</td>
+                  <td>femme</td>
+                  <td>22943699</td>
+
+                  <td>
+
+                    <button type="button" class="btn btn-light btn-floating button" data-mdb-ripple-color="dark"
+                      data-bs-toggle="modal" data-bs-target="#view">
+
+                      <i class="bi bi-eye-fill icon"></i>
+                    </button>
+                    <!-- VIEW Modal -->
+                    <div class="modal fade" id="view" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Afficher un Patient</h5>
+                            
+                          </div>
+                          <div class="modal-body">
+                            <div class="card-body">
+                              <form class="row g-3">
+                                <div class="card-header">
+                                  <h6 class="mb-0">Contacte Information</h6>
+                                </div>
+                                 <div class="col-6">
+                                    <label class="form-label">Nom</label>
+                                    <input type="text" class="form-control" value="Laamari">
+                                 </div>
+                                 <div class="col-6">
+                                  <label class="form-label">Prénom</label>
+                                  <input type="text" class="form-control" value="Sarra">
+                                </div>
+                                <div class="col-12">
+                                  <label class="form-label">Date de Naissance</label>
+                                  <input type="date" class="form-control" >
+                                 </div>
+                                  <div class="col-6">
+                                    <label class="form-label">Adresse Email</label>
+                                    <input type="text" class="form-control" value="laamari.sa99@gmail.com">
+                                </div>
+
+                                <div class="col-6">
+                                    <label class="form-label">Tel</label>
+                                    <input type="text" class="form-control" value="22943699">
+                                </div>
+                              </form>
+
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-light cancel" data-bs-dismiss="modal">Fermer</button>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <!--end of view model-->
+                    
+                    <!-- EDIT Modal -->
+                    <div class="modal fade" id="edit" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modifier un Patient</h5>
+                            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                          </div>
+                          <div class="modal-body">
+                            <div class="card">
+                              <div class="card-body">
+                                <div class="border p-3 rounded">
+
+
+                                  <form class="row g-3">
+
+
+                                    
+                                    <div class="col-6">
+                                      <label class="form-label">Nom</label>
+                                      <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-6">
+                                      <label class="form-label">Prenom</label>
+                                      <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-6">
+                                      <label class="form-label">date de naissance </label>
+                                      <input type="date" class="form-control">
+                                    </div>
+                                    <div class="col-6">
+                                      <label class="form-label">Adresse Email</label>
+                                      <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-6">
+                                      <label class="form-label">Tel</label>
+                                      <input type="text" class="form-control">
+                                    </div>
+
+                                    <div class="row mt-3 ">
+
+                                      <div class="col-6">
+                                        <button type="submit" class="btn btn-light px-2 confirmer"><i
+                                            class="bx bx-check-circle mr-1"></i>Confirmer</button>
+                                        <button type="submit" class="btn btn-light px-2 cancel"><span class="iconify"
+                                            data-icon="icomoon-free:cancel-circle"></span>Cancel</button>
+                                      </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+                                </form>
+
+                              </div>
+                            </div>
+                            <!--end row-->
+
+
+                          </div>
+                          <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fermer</button>
+                            
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+                    <!--end of EDIT model-->
+
+
+
+
+
+                   
+
+                    <button type="button" class="btn btn-light btn-floating button" data-bs-toggle="modal"
+                      data-bs-target="#edit">
+                      <i class="bi bi-pencil-fill icon"></i>
+                    </button>
+
+
+
+
+
+
+                    <button type="button" class="btn btn-light btn-floating button">
+                      <i class="bi bi-trash-fill icon"></i>
+                    </button>
+
+                  </td>
+                </tr>
+
+
+                <tr>
+                  <td>2</td>
+                  <td>laamari</td>
+                   
+                  
+
+                  <td>Sarra</td>
+                  <td>12/07/1999</td>
+                  <td>femme</td>
+                  <td>22943699</td>
+
+                  <td>
+
+                    <button type="button" class="btn btn-light btn-floating button" data-mdb-ripple-color="dark"
+                    data-bs-toggle="modal" data-bs-target="#view">
+
+                    <i class="bi bi-eye-fill icon"></i>
+                  </button>
+
+                  <button type="button" class="btn btn-light btn-floating button" data-bs-toggle="modal"
+                    data-bs-target="#edit">
+                    <i class="bi bi-pencil-fill icon"></i>
+                  </button>
+
+
+
+
+
+
+                  <button type="button" class="btn btn-light btn-floating button">
+                    <i class="bi bi-trash-fill icon"></i>
+                  </button>
+                  </td>
+                </tr>
+
+              </tbody>
+
+            </table>
+          </div>
+
+        </div>
+
+        <nav aria-label="Page navigation example ">
+          <ul class="pagination justify-content-end">
+            <li class="page-item"><a class="page-link" href="javascript:;">Previous</a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="javascript:;javascript:;">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="javascript:;">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="javascript:;">3</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="javascript:;">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap bundle JS -->
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <!--plugins-->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/plugins/simplebar/js/simplebar.min.js"></script>
+  <script src="../assets/plugins/metismenu/js/metisMenu.min.js"></script>
+  <script src="../assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+  <script src="../assets/js/pace.min.js"></script>
+  <!--app-->
+  <script src="../assets/js/app.js"></script>
+
+
+
+</body>
+
+</html>

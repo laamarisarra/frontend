@@ -1,0 +1,86 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Radio+Canada:wght@600&display=swap');
+.button {
+    background-color: white ; 
+    border-color:#FFF89A;
+    
+    
+    padding: 13px;
+    text-align: center;
+
+   
+    display: inline-block;
+    font-size: 8px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:80%;
+    }
+  .btn-primary:hover{
+    pointer-events: none;
+
+  }
+  .icon {
+      font-size: 13px;
+      padding-right: 5px;
+      color: #FFC900;
+      
+  }
+  .addbutton{
+      border-radius: 15%;
+      background-color: #053F5E;
+      font-family: 'Quicksand', sans-serif;
+      color: white;
+      
+      
+  }
+  .bi-plus-circle {
+      color: azure;
+
+  }
+  th{
+   font-family: 'Quicksand', sans-serif ; 
+   color: grey;
+   
+   
+   }
+.table {
+       background-color: #f8f9fa;
+       }
+    
+*{
+    font-family: 'Orelega One', cursive;
+    font-family: 'Radio Canada', sans-serif;
+    
+}
+.modal-header{
+    background-color: #FFD163;
+}
+.confirmer{
+    background-color: #3E7C17;
+    color: #f8f9fa;
+}
+.cancel{
+    background-color: #DA1212;
+    color: #f8f9fa;
+}
+
+.signin-btn{
+    
+    background-color: #FFD163 ;
+    
+}
+.welcomebtn{
+    background: linear-gradient(179.5deg, rgb(255, 230, 69) 3.3%, rgb(255, 157, 73) 96%);
+    padding: 10px;
+    border: none;
+    border-radius:12px;
+    color:white;
+    font-family: 'Orelega One'; 
+}
+
+
+   
+      
+   
+  
